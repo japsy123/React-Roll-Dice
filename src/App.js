@@ -12,8 +12,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <header />
-        <RollDice />
-        <Die />
+
+        <div>
+          <RollDice />
+          <Die face="five" />
+        </div>
       </div>
     );
   }
